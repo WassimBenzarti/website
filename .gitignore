@@ -1,7 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
 # Logs
 logs
 *.log
 npm-debug.log*
+
+# NPM
+/node_modules
+/.idea
 
 # Runtime data
 pids
@@ -35,3 +41,4 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
