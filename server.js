@@ -4,7 +4,8 @@ var express = require('express');
 var app = express();
 
 app.use('/',function(req,res,next){
-    res.send('<h1>This is MY express App</h1>');
+    
+    res.send('<h1>This is MY express App</h1><br>\n<h2>'+process.version+'</h2>');
 
     next();
 });
