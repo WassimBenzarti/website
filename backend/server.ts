@@ -1,5 +1,6 @@
-var http = require('http');
-var express = require('express');
+/// <reference path="../typings/index.d.ts" />
+import http = require('http');
+import express = require('express');
 
 var app = express();
 
