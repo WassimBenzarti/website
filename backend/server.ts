@@ -34,6 +34,7 @@ app.use('/', function (req, res,next) {
     next();
   }
 });
+
 app.use(express.static('./dist/src'));
 app.use(express.static('./public'));
 
