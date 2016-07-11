@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let item of pages">
+        <a [routerLinkActive]="['active']" [routerLink]="[item.path]">{{item.name}}</a>
+    </li>
+</ul>

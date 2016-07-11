@@ -1,0 +1,10 @@
+.logo{
+    display:block;
+    width:300px;
+    height:160px;
+    margin:0 auto;
+    opacity:.75;
+}
+.logo svg{
+    height:150px;
+}
