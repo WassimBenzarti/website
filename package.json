@@ -4,7 +4,7 @@
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "gulp",
+    "start": "gulp server",
     "dev": "gulp",
     "ng": "ng serve"
   },
@@ -19,10 +19,13 @@
     "@angular/platform-browser-dynamic": "2.0.0-rc.3",
     "@angular/router": "3.0.0-alpha.7",
     "es6-shim": "0.35.1",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.1.0",
     "reflect-metadata": "0.1.3",
     "rxjs": "5.0.0-beta.6",
     "systemjs": "0.19.26",
     "zone.js": "0.6.12"
+
   },
   "devDependencies": {
     "angular-cli": "1.0.0-beta.8",
@@ -33,8 +36,10 @@
     "gulp-nodemon": "^2.1.0",
     "gulp-sourcemaps": "latest",
     "gulp-typescript": "^2.13.6",
+    "run-sequence": "^1.2.2",
     "ts-node": "0.5.5",
     "typescript": "1.8.10",
-    "typings": "0.8.1"
+    "typings": "0.8.1",
+    "merge-stream": "latest"
   }
 }
